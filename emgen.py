@@ -8,7 +8,6 @@ Created on Sun Jan 22 19:22:15 2023
 import openai
 import streamlit as st
 
-#openai.api_key = os.getenv("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")
 openai.api_key  = ""
 
 def generateEmail(prompt):
